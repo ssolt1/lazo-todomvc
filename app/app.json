@@ -1,0 +1,16 @@
+{
+    "routes": {
+        "":             { "component": "todos-single" },
+        "multiple(/)":  { "component": "todos-multiple" },
+        "header(/)":    { "component": "header" },
+        "main(/)":      { "component": "main" },
+        "footer(/)":    { "component": "footer" },
+        "layout(/)":    { "component": "main", "layout": "todos-layout" },
+        "child-views(/)":    { "component": "todos-child-views" }
+    },
+    "css": [
+        "/app/client/todomvc-common/base.css",
+        "/app/client/todomvc-app-css/index.css"
+    ],
+    "js": ["app/client/todomvc-common/base"]
+}
